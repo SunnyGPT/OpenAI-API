@@ -65,7 +65,7 @@ const Home = () => {
                                         <Card.Meta>系统信息总览</Card.Meta>
                                         <Card.Description>
                                             <p>名称：OpenAI-365 API中文版</p>
-                                            <p>版本：{statusState?.status?.version ? statusState?.status?.version : "v0.1.3"}</p>
+                                            <p>版本：{statusState?.status?.version ? statusState?.status?.version : "v0.1.3.Beta"}</p>
                                             <p>
                                                 支持：
                                                 <a
