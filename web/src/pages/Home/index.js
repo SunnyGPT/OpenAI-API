@@ -64,15 +64,15 @@ const Home = () => {
                                         <Card.Header>系统信息</Card.Header>
                                         <Card.Meta>系统信息总览</Card.Meta>
                                         <Card.Description>
-                                            <p>名称：{statusState?.status?.system_name}</p>
-                                            <p>版本：{statusState?.status?.version ? statusState?.status?.version : "unknown"}</p>
+                                            <p>名称：OpenAI-365 API中文版</p>
+                                            <p>版本：{statusState?.status?.version ? statusState?.status?.version : "v0.1.3"}</p>
                                             <p>
-                                                源码：
+                                                支持：
                                                 <a
-                                                    href='https://github.com/songquanpeng/one-api'
+                                                    href='https://t.me/openai_365'
                                                     target='_blank'
                                                 >
-                                                    https://github.com/songquanpeng/one-api
+                                                    https://t.me/openai_365
                                                 </a>
                                             </p>
                                             <p>启动时间：{getStartTimeString()}</p>
